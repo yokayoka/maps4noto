@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapSources>
+  Map services for the 2024 Noto Earthquake 
+  <tileService>
+    GSI WMTS Services
+    <name>令和6年能登半島地震 輪島東地区 正射画像 (2024年1月2日撮影)</name>
+    <!-- タイル サービスの URL -->
+    <url>https://cyberjapandata.gsi.go.jp/xyz/20240102noto_wazimahigashi_0102do/{z}/{x}/{y}.png</url>
+    <!-- タイル サービスの最小ズーム レベル -->
+    <minZoomLevel>10</minZoomLevel>
+    <!-- タイル サービスの最大ズーム レベル -->
+    <maxZoomLevel>18</maxZoomLevel>
+  </tileService>
+  <!-- さらに別のタイル サービスを追加する場合は、同様の <tileService> セクションを追加します -->
+</mapSources>
